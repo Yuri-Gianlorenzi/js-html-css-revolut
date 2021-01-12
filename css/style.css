@@ -47,10 +47,6 @@ ul.nav_list li img {
 /* per formattare i box dropdown */
 ul.nav_list li ul {
   /* display: none; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   box-shadow: 1px 1px 4px 0px rgb(201, 201, 201);
   position: absolute;
   top: 50px;
