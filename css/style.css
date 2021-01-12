@@ -15,17 +15,23 @@ a {
 .uppercase {
   text-transform: uppercase;
 }
-.t_black {
-  color: black;
-}
 
+
+.pink_button {
+  padding: 0px 10px;
+  border-radius: 25px;
+  background-color: #eb008d;
+  color: white;
+}
 
 
 .container {
   width: 90%;
   margin: auto;
   height: 100vh;
+
 }
+
 header {
   margin-top: 20px;
   height: 50px;
@@ -66,10 +72,18 @@ ul.nav_list li ul li {
   list-style: none;
 }
 
-/* .d_none {
+.d_none {
   display: none;
-} */
+}
 
 ul.nav_list li ul.active {
   display: block;
 }
+
+ul.nav_list li a.t_black {
+  color: black;
+}
+
+
+/* <i class="fas fa-chevron-down"></i> */
+/* <i class="fas fa-chevron-up"></i> */
