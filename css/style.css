@@ -80,6 +80,13 @@ ul.nav_list li ul.active {
   display: block;
 }
 
+ul.nav_list li:nth-child(2).t_black,
+ul.nav_list li:nth-child(3).t_black,
+ul.nav_list li:nth-child(4).t_black {
+  color: black;
+}
+
+
 ul.nav_list li a.t_black {
   color: black;
 }

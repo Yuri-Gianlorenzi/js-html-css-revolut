@@ -3,8 +3,7 @@ $(document).ready(function(){
   var turnChevron = $('ul.nav_list li:nth-last-child(2) a');
   console.log(turnChevron);
   $('.nav_list li').hover(function(){
-    // $('.dropdown-menu').toggleClass('active');
-
+    $(this).toggleClass('t_black');
 
     //ipotesi più dropdown
     $(this).children('ul').toggleClass('active');
