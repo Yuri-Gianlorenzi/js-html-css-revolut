@@ -50,7 +50,7 @@ ul.nav_list li img {
 
 /* per formattare i box dropdown */
 ul.nav_list li ul {
-  /* display: none; */
+  display: none;
   box-shadow: 1px 1px 4px 0px rgb(201, 201, 201);
   position: absolute;
   top: 50px;
@@ -66,9 +66,9 @@ ul.nav_list li ul li {
   min-width: 300px;
 }
 
-.d_none {
+/* .d_none {
   display: none;
-}
+} */
 
 .active {
   display: block;
