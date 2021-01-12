@@ -29,7 +29,6 @@ a {
 header {
   margin-top: 20px;
   height: 50px;
-  border-bottom: 1px solid #818181;
 }
 
 .header_nav ul.nav_list {
@@ -39,9 +38,10 @@ header {
   align-items: center;
 }
 
-.header_nav ul.nav_list li{
+.header_nav ul.nav_list > li{
   list-style: none;
   position: relative;
+  line-height: 50px;
 }
 
 ul.nav_list li img {
@@ -62,8 +62,8 @@ ul.nav_list li ul {
 
 ul.nav_list li ul li {
   padding: 10px 0;
-  border: 1px solid rgb(176, 176, 176);
   min-width: 300px;
+  list-style: none;
 }
 
 /* .d_none {
