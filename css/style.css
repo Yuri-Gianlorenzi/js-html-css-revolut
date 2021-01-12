@@ -70,6 +70,6 @@ ul.nav_list li ul li {
   display: none;
 } */
 
-.active {
+ul.nav_list li ul.active {
   display: block;
 }
