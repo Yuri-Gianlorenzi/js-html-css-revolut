@@ -8,6 +8,7 @@ $(document).ready(function(){
     //ipotesi più dropdown
     $(this).children('ul').toggleClass('active');
     $(this).children('a').toggleClass('t_black');
+    $(this).children('ul li').toggleClass('t_black');
 
     // con questo if, riusciamo a capovolgere la chevron una volta che ci passiamo sopra, per poi farla tornare alla posizione iniziale una volta che andiamo via dall'hover
     if (turnChevron.hasClass('t_black')){
